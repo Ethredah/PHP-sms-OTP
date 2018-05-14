@@ -1,0 +1,473 @@
+
+
+
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+
+/*end reset*/
+body {
+	background: url(../images/back.jpg)no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+	position: relative;
+
+}
+.main-web {
+    position: absolute;
+    top: 0;
+    left: 21%;
+    width: 55%;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+canvas.particles-js-canvas-el {
+    height: 789px!important;
+}
+/*--//parallax-js--*/
+.main-agile h2 {
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #000;
+}
+.register-form h2 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: cornflowerblue;
+}
+.register-form p {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 70%;
+    margin: 1.5em auto;
+    line-height: 1.6;
+    color: #fff;
+}
+.main-agile {
+    margin: 5em 0 7em;
+}
+.main-agile p {
+    color: #fff;
+    width: 59%;
+    text-align: center;
+    margin: 2em auto 1.5em;
+    line-height: 30px;
+    font-size: 1.1em;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.content-wthree {
+    padding: 50px 50px;
+    text-align: center;
+	position: relative;
+}
+.main-web h1 {
+    color: #000;
+    font-size: 4em;
+    letter-spacing: 3px;
+    margin: .55em 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.register-form form {
+    width: 55%;
+    margin: 2em auto 0;
+}
+.register-form input {
+    padding: .8em 3em;
+    width: 65%;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #fff;
+    outline: none;
+    border: 4px #abb2b9;
+    background: none;
+    float: left;
+}
+.register-form input[type="submit"] {
+    color: #fff;
+    font-size: 1em;
+    border: 4px;
+    background:  #29788c  ;
+    padding: 1.25em 1em;
+		margin-left:20px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    float: left;
+    letter-spacing: 1px;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.register-form input[type="submit"]:hover {
+    background: none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.register-form img {
+    width: 25%;
+}
+.register-form {
+    padding: 3em 1em 4em;
+		background-color: black;
+		opacity: 0.7;
+		border-radius: 15px;
+}
+/*--//footer--*/
+.footer p {
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding: 2em 0;
+		color:#000;
+}
+.footer p a{
+	color: #60adbf ;
+}
+.footer p a:hover{
+	text-decoration:underline;
+}
+/*--//footer--*/
+
+/*--responsive--*/
+@media(max-width: 1680px){
+
+}
+@media(max-width: 1600px){
+
+}
+@media(max-width: 1440px){
+	.register-form form {
+		width: 82%;
+	}
+	.register-form p {
+		width: 80%;
+	}
+}
+@media(max-width: 1366px){
+	.register-form form {
+		width: 90%;
+	}
+}
+@media(max-width: 1280px){
+	.register-form p {
+		width: 90%;
+	}
+	.main-web h1 {
+		font-size: 3.5em;
+		margin: .5em 0;
+	}
+	.register-form h2 {
+		font-size: 2.8em;
+	}
+	.register-form {
+		padding: 2em 1em 3em;
+	}
+	canvas.particles-js-canvas-el {
+		height: 704px!important
+	}
+	.main-web {
+		left: 20%;
+		width: 60%;
+	}
+}
+@media(max-width: 1080px){
+	.main-web {
+		left: 15%;
+		width: 70%;
+	}
+}
+@media(max-width: 1050px){
+	.main-web {
+		left: 14%;
+	}
+}
+@media(max-width: 1024px){
+	.main-web {
+		left: 13%;
+		width: 72%;
+	}
+}
+@media(max-width: 991px){
+	.main-web h1 {
+		font-size: 3.3em;
+	}
+	.register-form h2 {
+		font-size: 2.6em;
+	}
+	.register-form input[type="email"] {
+		width: 64%;
+	}
+	.register-form {
+		padding: 1.5em 1em 2em;
+	}
+	canvas.particles-js-canvas-el {
+		height: 664px!important;
+	}
+}
+@media(max-width: 900px){
+	.main-web {
+		left: 10%;
+		width: 79%;
+	}
+}
+@media(max-width: 800px){
+	.main-web h1 {
+		font-size: 3.2em;
+	}
+	.register-form h2 {
+		font-size: 2.3em;
+	}
+	.register-form input[type="submit"] {
+		padding: 1.25em 3em;
+	}
+	.register-form input[type="email"] {
+		width: 62%;
+	}
+	.footer p {
+		letter-spacing: 2px;
+		 padding: 1.5em 0;
+	}
+	canvas.particles-js-canvas-el {
+		height: 632px!important;
+	}
+}
+@media(max-width: 768px){
+	.main-web {
+		left: 9%;
+		width: 81%;
+	}
+	.main-web h1 {
+		margin: 1em 0;
+	}
+	.footer p {
+		padding: 5em 0;
+	}
+	canvas.particles-js-canvas-el {
+		height: 909px!important;
+	}
+	.register-form input[type="email"] {
+		width: 61%;
+	}
+}
+@media(max-width: 736px){
+	.main-web h1 {
+		margin: .4em 0;
+		font-size: 3em;
+	}
+	.register-form h2 {
+		font-size: 2.2em;
+	}
+	.register-form p {
+		font-size: 1.2em;
+	}
+	.register-form img {
+		width: 28%;
+	}
+	.register-form input[type="submit"] {
+		padding: 1.25em 2.7em;
+	}
+	.footer p {
+		padding: 2.5em 0;
+	}
+	canvas.particles-js-canvas-el {
+		height: 600px!important;
+	}
+}
+@media(max-width: 667px){
+	.main-web h1 {
+		font-size: 2.8em;
+	}
+	.register-form h2 {
+		font-size: 2em;
+	}
+	.register-form p {
+		width: 100%;
+	}
+	.main-web {
+		left: 7%;
+		width: 89%;
+	}
+	canvas.particles-js-canvas-el {
+		height: 581px!important;
+	}
+	.footer p {
+		padding: 1.5em 0;
+	}
+}
+@media(max-width: 640px){
+	.main-web {
+		left: 4%;
+		width: 93%;
+	}
+}
+@media(max-width: 600px){
+	.register-form input[type="email"] {
+		width: 58%;
+	}
+	.footer p {
+		line-height: 2;
+	}
+	.register-form {
+		padding: 1em 1em 2em;
+	}
+}
+@media(max-width: 568px){
+	.register-form input[type="submit"] {
+		padding: 1.25em 2.3em;
+	}
+}
+@media(max-width: 480px){
+	.main-web h1 {
+		font-size: 2.5em;
+		letter-spacing: 2px;
+	}
+	.register-form h2 {
+		letter-spacing: 1px;
+	}
+	.register-form {
+		padding: .8em 1em 1.5em;
+	}
+	.register-form h2 {
+		font-size: 1.75em;
+	}
+	.register-form p {
+		font-size: 1.1em;
+	}
+	.register-form img {
+		width: 38%;
+	}
+	.register-form input[type="email"] {
+		font-size: .9em;
+	}
+	.register-form input[type="submit"] {
+		padding: 1.1em 1.4em;
+	}
+}
+@media(max-width: 440px){
+	.main-web h1 {
+		font-size: 2.3em;
+		letter-spacing: 1px;
+	}
+	.register-form h2 {
+		font-size: 1.65em;
+	}
+	.register-form input[type="email"] {
+		width: 53%;
+	}
+}
+@media(max-width: 414px){
+	.register-form input[type="submit"] {
+		font-size: .85em;
+		padding: 1.2em 1.4em;
+	}
+	.main-web {
+		left: 2%;
+		width: 95%;
+	}
+	.main-web h1 {
+		margin: 1.4em 0 .8em;
+	}
+	.register-form input[type="email"] {
+		width: 52%;
+	}
+}
+@media(max-width: 384px){
+	.main-web h1 {
+		margin: 1em 0 .4em;
+		font-size: 2em;
+	}
+	.register-form h2 {
+		font-size: 1.4em;
+	}
+	.register-form input[type="submit"] {
+		padding: 1.2em 1em;
+	}
+	.footer p {
+		font-size: .9em;
+	}
+}
+@media(max-width: 375px){
+	.register-form {
+		padding: .8em 0em 1.5em;
+	}
+	.main-web h1 {
+		margin: 1.2em 0 .4em;
+	}
+}
+@media(max-width: 320px){
+	.main-web h1 {
+		margin: .7em 0 .3em;
+		font-size: 1.8em;
+	}
+	.register-form h2 {
+		font-size: 1.25em;
+	}
+	.register-form p {
+		font-size: 1em;
+	}
+	.register-form input[type="email"] {
+		padding: .7em 1em;
+		font-size: .8em;
+	}
+	.register-form input[type="submit"] {
+		padding: 1.04em 1em;
+		font-size: .8em;
+	}
+	.footer p {
+		font-size: .8em;
+		padding: 1em 0;
+	}
+	canvas.particles-js-canvas-el {
+		height: 487px!important;
+	}
+}
+
+/*--//responsive--*/
