@@ -25,11 +25,6 @@ Don't forget to set the APPPATH with auth secret key in the constants file!, you
 
 Create a Database to save user details and for verifying users logging in. 
 
-
-    --
--- Database: ``
---
-
 -- --------------------------------------------------------
 
 --
